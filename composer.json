@@ -1,7 +1,7 @@
 {
     "name": "aivchenkolognex/just-for-test",
     "type": "library",
-    "version": "1.2",
+    "version": "1.3",
     "description": "API",
     "keywords": [
         "openapitools",
