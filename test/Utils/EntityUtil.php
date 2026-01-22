@@ -15,7 +15,7 @@ use OpenAPI\Client\Model\Store;
 
 class EntityUtil
 {
-    // Entities
+    // Entities 1
     public static function createProductRef(string $id): Product { return self::makeRef(Product::class, 'product', $id); }
     public static function createCounterpartyRef(string $id): Counterparty { return self::makeRef(Counterparty::class, 'counterparty', $id); }
     public static function createStoreRef(string $id): Store { return self::makeRef(Store::class, 'store', $id); }
